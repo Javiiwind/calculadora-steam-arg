@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reducido.css">
+    <title>Calculadora Steam Argentina</title>
+</head>
+<body class="bg-dark text-white">
+   <header>
+       <div class="container">
+           <div class="row justify-content-center">
+               <div class="col-md-auto">
+                   <h1 class="p-2 m-2 fw-bolder">Calculadora Steam Argentina</h1>
+               </div>
+           </div>
+       </div>     
+   </header>
+   <form>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-auto">
+                <h3 class="p-2 m-2">Ingresa el valor de tus juegos de Steam</h3>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-auto">
+                <input class="p-2 m-2 text-center form-control" type="number" name="precio" value="" id="precio1">
+                <h6 class="p-2 m-2 text-center">Precio del juego como figura en Steam</h6>
+            </div>
+        </div>
+    </div>
+    <!-- Aqui se creará el boton que realiza el calculo -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-auto p-2 m-1">
+                 <button type ="button" class="btn btn-primary" onclick="Boton()">Calcular</button>
+            </div>
+        </div>
+    </div>
+   </form>
+   <section>
+       <!-- Aqui se mostraran los resultados -->
+       <div class="container">
+           <div class="row justify-content-center">
+               <div class="col-md-auto">
+                   <p class="p-2 m-2">El valor final de la compra incluyendo todos los impuestos es:</p>
+               </div>
+           </div>
+           <div class="row justify-content-center">
+                <div class="col-md-4 bg-primary fw-bolder fs-2" id="total">
+                <!-- Aqui se mostrará el resultado total de la compra  -->
+                </div>
+           </div>
+       </div>
+   </section>
+   <section>
+       <div class="container">
+           <div class="row justify-content-center">
+               <div class="col-md-auto">
+                    <h6 class="p-2 m-2 fw-bolder text-center">*El valor mostrado es el saldo mínimo que necesita en su tarjeta Uala para comprar sus juegos en Steam. Es el mismo valor que le va a venir en el resumen de la tarjeta de crédito si esa fue su forma de pago.</h6>
+               </div>
+           </div>
+       </div>
+   </section>
+   <script src="js/app.js"></script>
+</body>
+</html>
