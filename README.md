@@ -7,4 +7,4 @@ Saludos
 
 Cambios al 15/08/2021
 - Realicé cambios en el porcentaje total de impuestos ya que noté que habian cambiado. Realicé una compra en Steam para probar, y coincide el valor exacto nuevamente.
-- Reemplacé la funcion clasica por una funcion flecha (solo por optimizacion de codigo). 
+- Reemplacé la función clasica por una función flecha (solo por optimización de codigo). 
